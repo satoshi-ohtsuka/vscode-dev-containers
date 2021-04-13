@@ -66,7 +66,8 @@ Given JavaScript front-end web client code written for use in conjunction with a
 3. To use latest-and-greatest copy of this definition from the repository:
    1. Clone this repository.
    2. Copy the contents of `containers/go/.devcontainer` to the root of your project folder.
-   3. Start VS Code and open your project folder.
+   3. Copy the file `.env.template` to `.env` and replace the text `{your proxy url}` to your proxy url.
+   4. Start VS Code and open your project folder.
 
 4. After following step 2 or 3, the contents of the `.devcontainer` folder in your project can be adapted to meet your needs.
 
